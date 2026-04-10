@@ -10,6 +10,10 @@ int main()
 	printf("Dear %s, How are you!\n\n", Name);
 	printf("Welcome to %s School\n\n", SchoolName);
 
+	// Print string (IMPORTANT: .c_str()) !!!
+    printf("Dear %s, How are you!\n\n", Name.c_str());
+    printf("Welcome to %s School\n\n", SchoolName.c_str());
+	
 	char c = 'S';
 
 	printf("Setting the width of c :%*c \n", 1, c);
